@@ -1,0 +1,75 @@
+/* navbar-css */
+
+/* Basic Styles */
+
+  /* Your existing styles */
+.container10 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* Additional styles for responsiveness */
+  }
+  
+  .title_sections {
+    text-align: center;
+  }
+  
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 30%; /* Adjust as per your design */
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 45%; /* Adjust for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .card {
+      width: 90%; /* Full width on smaller screens */
+      margin: 10px 0;
+    }
+  }
+  /* //////////////////////// */
+
+  @media (max-width: 768px) {
+    .element {
+      background-color: red;
+    }
+  }
+  
+  /* Media query for screen widths between 768px and 1200px */
+  @media (min-width: 768px) and (max-width: 1200px) {
+    .element {
+      background-color: green;
+    }
+  }
+  
+  /* Media query for screen widths larger than 1200px */
+  @media (min-width: 1200px) {
+    .element {
+      background-color: yellow;
+    }
+  }
